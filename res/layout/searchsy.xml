@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent" android:background="@drawable/back" 
+	android:layout_height="match_parent" >
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/dy" android:text="@string/dy" android:gravity="center" android:textSize="18sp" android:layout_alignParentLeft="true" android:layout_marginTop="70dp" ></TextView>
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/yl" android:text="@string/yl" android:gravity="center" android:textSize="18sp" android:layout_below="@+id/dy" android:layout_alignParentLeft="true" android:layout_marginTop="17dp"></TextView>
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/js" android:text="@string/js" android:gravity="center" android:textSize="18sp" android:layout_below="@+id/yl" android:layout_alignParentLeft="true" android:layout_marginTop="17dp"></TextView>
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/jd" android:text="@string/jd" android:gravity="center" android:textSize="18sp" android:layout_below="@+id/js" android:layout_alignParentLeft="true" android:layout_marginTop="17dp"></TextView>
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/sc" android:text="@string/sc" android:gravity="center" android:textSize="18sp" android:layout_below="@+id/jd" android:layout_alignParentLeft="true" android:layout_marginTop="17dp"></TextView>
+	<TextView android:layout_width="match_parent" style="@style/text" android:layout_height="wrap_content" android:id="@+id/hs" android:text="@string/hs" android:gravity="center" android:textSize="18sp" android:layout_below="@+id/sc" android:layout_alignParentLeft="true" android:layout_marginTop="17dp"></TextView>
+</RelativeLayout>

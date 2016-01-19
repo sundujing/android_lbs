@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:background="@drawable/back"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+     
+	
+		
+		<TextView android:id="@+id/c" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/c" android:layout_alignParentRight="true" android:layout_alignParentLeft="true"  android:layout_marginTop="70dp"/>
+		<TextView android:id="@+id/y" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/y" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/c" android:layout_marginTop="17dp"/>   
+		
+		<TextView android:id="@+id/s" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/s" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/y" android:layout_marginTop="17dp"/>   
+		
+		<TextView android:id="@+id/x" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/x" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/s" android:layout_marginTop="17dp"/>   
+		
+		<TextView android:id="@+id/k" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/k" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/x" android:layout_marginTop="17dp"/> 
+		<TextView android:id="@+id/d" style="@style/text" android:textSize="18sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/d" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:layout_below="@+id/k" android:layout_marginTop="17dp"/> 
+		 
+		
+		
+</LinearLayout>

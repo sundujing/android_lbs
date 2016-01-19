@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.lbs" android:versionCode="1" android:versionName="1.0"  android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<application android:name=".MyApp" android:icon="@drawable/icon" android:allowBackup="true"
+		android:label="@string/app_name">
+		<activity android:name=".LoginActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".RegActivity" android:label="@string/RegActivity" />
+		<activity android:name=".SearchActivity" android:label="@string/SearchActivity"></activity>
+		<activity android:name=".ProductListActivity" android:label="@string/ProductListActivity" />
+		<activity android:name=".ItemActivity" android:label="@string/ItemActivity"></activity>
+		<activity android:name=".SearchsyActivity" android:label="@string/SearchsyActivity"></activity>
+		<activity android:name=".SearchscActivity" android:label="@string/SearchscActivity"></activity>
+		<activity android:name=".WalkActivity" android:label="@string/WalkActivity"></activity>
+	
+            
+	</application>
+	<!-- 添加访问网络的授权 -->
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+   
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    	<!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+       
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+      <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" />
+       
+    <uses-permission android:name="android.permission.VIBRATE" />    
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+        
+  
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>  
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+     <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+</manifest>

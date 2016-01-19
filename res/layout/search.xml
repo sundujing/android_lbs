@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="center_horizontal"
+	android:background="@drawable/back" android:paddingTop="25px"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">												<!-- 声明一个显示产品名称的线性布局 -->
+		<TextView android:text="@string/tpName" android:layout_gravity="center_vertical" 
+			style="@style/text"
+			android:layout_height="wrap_content" android:layout_width="100px"/>
+		<EditText android:id="@+id/epName" android:singleLine="true"
+			android:layout_width="160px" android:layout_height="wrap_content" />
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:id="@+id/psearch" style="@style/button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/psearch" />
+		<Button android:id="@+id/getLocate" android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/gxwz"/>
+	</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+		 android:layout_width="match_parent" android:layout_height="90px" android:weightSum="1">   <!-- 餐饮按钮 -->   <!-- 娱乐按钮 -->   <!-- 娱乐按钮 -->
+		<ImageButton android:paddingLeft="5dp"  style="@style/button" android:background="@drawable/cy" android:id="@+id/cy" android:layout_width="wrap_content" android:layout_weight="0.22" android:layout_height="50dp"></ImageButton>
+		<ImageButton android:paddingLeft="5dp" style="@style/button" android:layout_marginLeft="50dp" android:background="@drawable/yl" android:id="@+id/yl" android:layout_width="wrap_content"  android:layout_weight="0.22" android:layout_height="50dp"></ImageButton>
+		<ImageButton android:layout_weight="0.22" style="@style/button" android:layout_marginLeft="70dp" android:background="@drawable/all" android:id="@+id/all" android:layout_height="50dp" android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:layout_height="match_parent" style="@style/button" android:layout_marginLeft="50dp" android:layout_weight="0.11" android:layout_width="wrap_content" android:id="@+id/ibExit1" android:src="@drawable/exit"></ImageButton>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+		 android:layout_width="match_parent" android:layout_height="90px" > 
+		<TextView android:layout_width="wrap_content"  style="@style/text" android:layout_marginLeft="15dp"
+			android:layout_below="@+id/cy" android:text="餐饮" android:layout_height="wrap_content" android:id="@+id/tcy"></TextView>
+			<TextView android:layout_width="wrap_content" style="@style/text" android:layout_height="wrap_content"
+			android:text="娱乐" android:id="@+id/tyl" android:layout_marginLeft="45dp"></TextView>
+			<TextView android:layout_width="wrap_content" style="@style/text" android:layout_height="wrap_content"
+			android:text="显示全部" android:id="@+id/tall" android:layout_marginLeft="25dp"></TextView>
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="退出程序" android:id="@+id/ttc" style="@style/text" android:layout_marginLeft="15dp"></TextView>
+		</LinearLayout>
+</LinearLayout>

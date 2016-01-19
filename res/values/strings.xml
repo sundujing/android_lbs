@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">基于位置的服务</string>
+	<string name="tvUid">账 号：</string>
+	<string name="tvPwd">密 码：</string>
+	<string name="btnLogin">登录</string>
+	<string name="btnReg">注册</string>
+	<string name="cbRemember">记住我</string>
+	<string name="tvName">昵称：</string>
+	<string name="tvPwd2">确认密码：</string>
+	<string name="age">年龄：</string>
+	<string name="btnBack">返回</string>
+	<string name="tpName">目标名称：</string>
+	<string name="gxwz">共享我的位置</string>
+	<string name="bcategory">大类别：</string>
+	<string name="scategory">小类别：</string>
+	<string name="psearch">查询</string>
+	<string name="RegActivity">lbs--注册</string>
+	<string name="SearchActivity">目标查找</string>
+	<string name="SearchsyActivity">娱乐</string>
+	<string name="SearchscActivity">餐饮</string>
+	<string name="ProductListActivity">产品列表</string>
+	<string name="ItemActivity">产品显示</string>
+	<string name="WalkActivity">行走路线</string>
+	<string name="c">川菜</string>
+	<string name="y">粤菜</string>
+	
+	<string name="s">苏菜</string>
+	
+	<string name="x">湘菜</string>
+	
+	<string name="k">快餐</string>
+	<string name="d">东北菜</string>
+	<string name="dy">电影院</string>
+	<string name="yl">游乐场</string>
+	<string name="js">健身</string>
+	<string name="jd">景点</string>
+	<string name="sc">商场</string>
+	<string name="hs">会所</string>
+</resources>
